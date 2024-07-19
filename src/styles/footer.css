@@ -1,0 +1,35 @@
+.footer {
+  background-color: #060314;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer__inner {
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+  padding: 20px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__social {
+	list-style: none;
+	display: flex;
+	align-items: center;
+  justify-content: space-around;
+}
+
+.footer__social-link {
+  margin: 10px;
+}
+
+.footer__social-img {
+  width: 25px;
+  background-color: #fefefe;
+  border-radius: 50px;
+}

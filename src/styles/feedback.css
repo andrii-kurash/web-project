@@ -1,0 +1,46 @@
+.feedback{
+	padding: 100px 0;
+}
+
+.feedback__inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.feedback__images{
+	width: 50%;
+}
+
+.feedback__form{
+	width: 415px;
+	margin: 30px;
+}
+
+.feedback__title{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+  margin-bottom: 15px;
+}
+
+.feedback__text{
+	margin-bottom: 30px;
+}
+
+.feedback__input{
+	display: block;
+	padding: 20px;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, .1)
+}
+
+.feedback__input::placeholder{
+	font-size: 16px;
+	line-height: 19px;
+	color: #333;
+}
+
+
